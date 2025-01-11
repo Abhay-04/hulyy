@@ -22,7 +22,7 @@ const Productivity = () => {
           </p>
         </div>
         <div className="relative  col-span-12 sm:col-span-6 md:col-span-8 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg   bg-center bg-cover bg-[url('../src/assets/teamplanner.png')]">
-          <p className="absolute bottom-0 px-6 pb-4 w-[60%]">
+          <p className="absolute bottom-0 px-6 pb-4 w-full sm:w-[60%]">
             {" "}
             <span className="font-bold">Team Planner. </span>Keep track of the
             bigger picture by viewing all individual tasks in one centralized
@@ -31,13 +31,22 @@ const Productivity = () => {
         </div>
         <div className=" relative col-span-12 sm:col-span-6 md:col-span-8 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg  bg-center bg-cover bg-[url('../src/assets/time.png')]">
           {" "}
-          <p className="absolute bottom-0 px-6 pb-4 w-[60%]">
+          <p className="absolute bottom-0 px-6 pb-4 w-full sm:w-[60%]">
             {" "}
             <span className="font-bold">Time-blocking. </span> Transform daily
             tasks into structured time blocks for focused productivity.
           </p>
         </div>
-        <div className=" relative col-span-12 sm:col-span-6 md:col-span-4 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg bg-center bg-cover bg-black  bg-[url('../src/assets/notification.png')]">
+        <div className=" relative col-span-12 sm:col-span-6 md:col-span-4 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg bg-center bg-cover bg-black  ">
+          <video
+            className="bg-center bg-cover"
+            autoPlay
+            loop
+            muted
+            src="https://huly.io/videos/pages/home/stay-productive/waves.mp4?updated=20240527164544"
+          />
+
+          <img className="absolute -top-12 -right-1 sm:right-0 sm:-top-14" src="../src/assets/notification.png" />
           <p className="absolute bottom-0 px-6 pb-4">
             {" "}
             <span className="font-bold">Notifications.</span> Keep up to date
