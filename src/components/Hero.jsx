@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <div className="z-10 w-[90%]  2xl:w-[90%] 2xl:mt-60">
         <img
-          src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-illustration.7100a376.jpg&w=1920&q=75"
+          href="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-illustration.7100a376.jpg&w=1920&q=75"
           className="relative "
         />
       </div>
