@@ -1,3 +1,5 @@
+import image from "../assets/keyboard.png";
+
 const Productivity = () => {
   return (
     <div className="w-full px-4 sm:px-10 2xl:px-80 2xl:pt-20 relative overflow-hidden py-20 lg:py-40">
@@ -12,30 +14,34 @@ const Productivity = () => {
         </p>
       </div>
       <div className="cards grid grid-cols-12 gap-4 text-white">
-        <div className=" relative col-span-12 sm:col-span-6 md:col-span-4 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg  bg-center bg-cover bg-[url('../../public/keyboard.png')]">
+        <div className=" relative col-span-12 sm:col-span-6 md:col-span-4 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg  bg-center bg-cover bg-[url('../src/assets/keyboard.png')]">
           <p className="absolute bottom-0 px-6 pb-4">
             {" "}
-            <span className="font-bold">Keyboard shortcuts.</span> Work efficiently with instant
-            access to common actions.
+            <span className="font-bold">Keyboard shortcuts.</span> Work
+            efficiently with instant access to common actions.
           </p>
         </div>
-        <div className="relative  col-span-12 sm:col-span-6 md:col-span-8 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg   bg-center bg-cover bg-[url('../../public/teamplanner.png')]">
-           <p className="absolute bottom-0 px-6 pb-4 w-[60%]">
+        <div className="relative  col-span-12 sm:col-span-6 md:col-span-8 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg   bg-center bg-cover bg-[url('../src/assets/teamplanner.png')]">
+          <p className="absolute bottom-0 px-6 pb-4 w-[60%]">
             {" "}
-            <span className="font-bold">Team Planner. </span>Keep track of the bigger picture by viewing all individual tasks in one centralized team calendar.
+            <span className="font-bold">Team Planner. </span>Keep track of the
+            bigger picture by viewing all individual tasks in one centralized
+            team calendar.
           </p>
         </div>
-        <div className=" relative col-span-12 sm:col-span-6 md:col-span-8 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg  bg-center bg-cover bg-[url('../../public/time.png')]">
+        <div className=" relative col-span-12 sm:col-span-6 md:col-span-8 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg  bg-center bg-cover bg-[url('../src/assets/time.png')]">
           {" "}
-           <p className="absolute bottom-0 px-6 pb-4 w-[60%]">
+          <p className="absolute bottom-0 px-6 pb-4 w-[60%]">
             {" "}
-            <span className="font-bold">Time-blocking. </span> Transform daily tasks into structured time blocks for focused productivity.
+            <span className="font-bold">Time-blocking. </span> Transform daily
+            tasks into structured time blocks for focused productivity.
           </p>
         </div>
-        <div className=" relative col-span-12 sm:col-span-6 md:col-span-4 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg bg-center bg-cover bg-black  bg-[url('../../public/notification.png')]">
-           <p className="absolute bottom-0 px-6 pb-4">
+        <div className=" relative col-span-12 sm:col-span-6 md:col-span-4 h-[270px] sm:h-[310px] md:h-[420px] rounded-lg bg-center bg-cover bg-black  bg-[url('../src/assets/notification.png')]">
+          <p className="absolute bottom-0 px-6 pb-4">
             {" "}
-            <span className="font-bold">Notifications.</span> Keep up to date with any changes by receiving instant notifications.
+            <span className="font-bold">Notifications.</span> Keep up to date
+            with any changes by receiving instant notifications.
           </p>
         </div>
       </div>
