@@ -47,8 +47,8 @@ const Productivity = () => {
           />
 
           <img
+            src="../src/assets/notification.png"
             className="absolute -top-12 -right-1 sm:right-0 sm:-top-14"
-            src={"../src/assets/notification.png"}
           />
           <p className="absolute bottom-0 px-6 pb-4">
             {" "}
