@@ -46,7 +46,10 @@ const Productivity = () => {
             src="https://huly.io/videos/pages/home/stay-productive/waves.mp4?updated=20240527164544"
           />
 
-          <img className="absolute -top-12 -right-1 sm:right-0 sm:-top-14" src="../src/assets/notification.png" />
+          <img
+            className="absolute -top-12 -right-1 sm:right-0 sm:-top-14"
+            src={"../src/assets/notification.png"}
+          />
           <p className="absolute bottom-0 px-6 pb-4">
             {" "}
             <span className="font-bold">Notifications.</span> Keep up to date
