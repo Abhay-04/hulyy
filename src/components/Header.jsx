@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="px-4 sm:px-10 2xl:px-80 grid grid-cols-12 w-[100%]  py-4 text-white absolute z-50">
+    <div className="px-4 sm:px-10 2xl:px-80 grid grid-cols-12 w-[100%]  py-4 text-white absolute z-[1000]">
       <div className="col-span-6 lg:col-span-2">
         <img
           className="w-20"
