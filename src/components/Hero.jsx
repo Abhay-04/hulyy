@@ -29,7 +29,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className=" z-10 grid-col-2 pb-24">
+      <div className=" z-10 grid-col-2 pt-16 pb-20">
         <h4 className="text-[#8a8888] mb-2">
           Everything you need for productive team work:
         </h4>
