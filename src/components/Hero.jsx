@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-red-400 w-full h-[100vh] px-4 sm:px-10 2xl:px-80 pt-20 relative overflow-hidden">
+    <div className=" w-full h-[100vh] px-4 sm:px-10 2xl:px-80 pt-20 relative overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="https://huly.io/videos/pages/home/hero/hero.webm?updated=20240607144404"
