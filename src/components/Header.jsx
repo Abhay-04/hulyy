@@ -26,9 +26,9 @@ const Header = () => {
               <i className="ri-github-fill text-lg"></i> Star Us
             </button>
           </div>
-          <div className="lg:flex gap-4 hidden">
-            <button>SignIn</button>
-            <button>Get Started</button>
+          <div className="lg:flex gap-4 hidden text-xs font-bold">
+            <button className="px-4 border-[#ffffff48] py-2 border rounded-full">SIGN IN</button>
+            <button className="px-4 border-[#ffffff48] py-2 border rounded-full">GET STARTED</button>
           </div>
           <div className="lg:hidden text-2xl text-white">
             <i className="ri-menu-fill"></i>
