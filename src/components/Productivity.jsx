@@ -1,4 +1,4 @@
-import image from "../assets/keyboard.png";
+
 
 const Productivity = () => {
   return (
