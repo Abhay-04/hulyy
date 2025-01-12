@@ -1,6 +1,6 @@
 const WorkTogether = () => {
   return (
-    <div className="w-full h-auto px-4 sm:px-10 2xl:px-80 2xl:pt-20  flex flex-col items-between justify-center bg-black ">
+    <div className="w-full h-auto px-4 sm:px-10 2xl:px-80 2xl:pt-20  flex flex-col items-between justify-center ">
       {/* Video Background */}
       {/* <video
         className="absolute bg-cover w-full h-auto object-cover z-0"
