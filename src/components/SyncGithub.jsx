@@ -1,3 +1,5 @@
+import Image from "../assets/Sync.jpg"
+
 const SyncGithub = () => {
   return (
     <div className="w-full h-full flex flex-col   bg-black text-white px-4 sm:px-10  2xl:px-80 py-20 2xl:py-28 mt-40">
@@ -12,7 +14,7 @@ const SyncGithub = () => {
         </p>
       </div>
       <div>
-        <img className="w-[90%]" src="../src/assets/Sync.jpg" />
+        <img className="w-[90%]" src={Image} />
       </div>
       <div className="cards grid grid-cols-12 mt-10 sm:mt-40 justify-center gap-y-12 sm:gap-y-16">
         <div className="col-span-12 lg:col-span-4">
