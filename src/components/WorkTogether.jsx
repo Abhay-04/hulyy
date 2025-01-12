@@ -27,7 +27,7 @@ const WorkTogether = () => {
                 className="size-10"
                 src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcustomize.03200dd0.png&w=48&q=100"
               />
-              <h3 className="w-[40%] text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
+              <h3 className="sm:w-[40%] w-full text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
                 Customize workspace
               </h3>
               <p className="leading-5 text-gray-500 w-full sm:w-[85%]">
@@ -40,7 +40,7 @@ const WorkTogether = () => {
                 className="size-10"
                 src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvideo.e4ea1f4b.png&w=48&q=100"
               />
-              <h3 className="w-[60%] text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
+              <h3 className="sm:w-[60%] w-full text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
                 Audio and video calls
               </h3>
               <p className="leading-5 text-gray-500 w-full sm:w-[85%]">
@@ -53,7 +53,7 @@ const WorkTogether = () => {
                 className="size-10"
                 src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvite.043fb941.png&w=48&q=100"
               />
-              <h3 className="w-[40%] text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
+              <h3 className=" w-full sm:w-[40%] text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
                 Invite guests
               </h3>
               <p className="leading-5 text-gray-500 w-full sm:w-[85%]">
