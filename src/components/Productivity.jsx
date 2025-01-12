@@ -1,4 +1,4 @@
-
+import notificationImg from "../assets/notification.png"
 
 const Productivity = () => {
   return (
@@ -47,7 +47,7 @@ const Productivity = () => {
           />
 
           <img
-            src="../src/assets/notification.png"
+            src={notificationImg}
             className="absolute -top-12 -right-1 sm:right-0 sm:-top-14"
           />
           <p className="absolute bottom-0 px-6 pb-4">
