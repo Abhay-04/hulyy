@@ -2,7 +2,7 @@ import Image from "../assets/Sync.jpg"
 
 const SyncGithub = () => {
   return (
-    <div className="w-full h-full flex flex-col   bg-black text-white px-4 sm:px-10  2xl:px-80 py-20 2xl:py-28 mt-40">
+    <div className="w-full h-full flex flex-col   bg-black text-white px-4 sm:px-10  2xl:px-80 py-20 2xl:py-28 mt-20">
       <div>
         <h3 className=" text-4xl sm:text-6xl font-semibold leading-none">
           Sync with GitHub. <br></br> Both ways.
