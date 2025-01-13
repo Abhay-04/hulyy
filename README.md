@@ -26,6 +26,10 @@ This repository contains a frontend web application replicating the Huly.io webs
 
 ---
 
+## Demo
+
+Check out the live demo here: [hulyy.vercel.app](https://hulyy.vercel.app)
+
 ## Project Structure  
 
 ```plaintext
@@ -45,9 +49,7 @@ huly-io-clone/
 
 
 
-## Demo
 
-Check out the live demo here: [hulyy.vercel.app](https://hulyy.vercel.app)
 
 ## Installation
 
