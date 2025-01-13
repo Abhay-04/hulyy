@@ -45,7 +45,7 @@ huly-io-clone/
 
 ## Demo
 
-Check out the live demo here: [hulyy.vercel.app](https://hulyy.vercel.app)
+Check out the live demo here: - **Live Demo:** [Hulyy](https://hulyy.vercel.app)  
 
 ## Installation
 
