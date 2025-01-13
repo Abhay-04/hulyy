@@ -43,9 +43,11 @@ huly-io-clone/
 ├── package.json           # Project metadata and dependencies
 └── README.md              # Project documentation
 
+
+
 ## Demo
 
-Check out the live demo here: - **Live Demo:** [Hulyy](https://hulyy.vercel.app)  
+Check out the live demo here: [hulyy.vercel.app](https://hulyy.vercel.app)
 
 ## Installation
 
