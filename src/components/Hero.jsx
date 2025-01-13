@@ -1,5 +1,3 @@
-
-
 const Hero = () => {
   return (
     <div className="w-full min-h-screen bg-black text-white grid grid-col-12 px-4 sm:px-10 2xl:px-80 2xl:pt-20 relative overflow-hidden">
@@ -28,7 +26,6 @@ const Hero = () => {
           className="relative "
         />
       </div>
-     
 
       <div className=" z-10 grid-col-2 pt-16 pb-20">
         <h4 className="text-[#8a8888] mb-2">

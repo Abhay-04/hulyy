@@ -1,8 +1,6 @@
-
-
 const Footer = () => {
   return (
-    <div className="  flex flex-col  items-center sm:items-end text-white w-full h-full px-4 sm:px-10 2xl:px-80 2xl:pt-20 relative overflow-hidden pt-20 mt-32 bg-black">
+    <div className="  flex flex-col  items-center sm:items-end text-white w-full h-full px-4 sm:px-10 2xl:px-80 2xl:pt-20 relative overflow-hidden pt-20 bg-black">
       <video
         className="absolute top-10 left-30 sm:top-48 sm:left-80 size-60 sm:size-96 object-bottom "
         src="https://huly.io/videos/cta/clock.mp4?updated=20240531154316"

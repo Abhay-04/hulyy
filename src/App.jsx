@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import MetaBrain from "./components/MetaBrain";
 import Productivity from "./components/Productivity";
 import SyncGithub from "./components/SyncGithub";
 import WorkTogether from "./components/WorkTogether";
@@ -13,6 +14,7 @@ function App() {
       <Productivity />
       <WorkTogether />
       <SyncGithub />
+      <MetaBrain />
       <Footer />
     </div>
   );
