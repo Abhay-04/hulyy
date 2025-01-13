@@ -1,4 +1,5 @@
 import Image from "../assets/Sync.jpg"
+import { ADVANCE_FILTERING_ICON_URL, MILESTONE_ICON_URL, MULTIPLE_REPO_ICON_URL, PRIVATE_TASK_ICON_URL, TRACK_PROGRESS_ICON_URL, TWO_WAY_ICON_URL } from "../utils";
 
 const SyncGithub = () => {
   return (
@@ -20,7 +21,7 @@ const SyncGithub = () => {
         <div className="col-span-12 lg:col-span-4">
           <img
             className="size-8"
-            src="https://huly.io/_next/static/media/2a9e454742efc41c8de5d3889bf55d34.svg"
+            src={TWO_WAY_ICON_URL}
           />
           <h4 className=" sm:w-[40%] text-xl sm:text-3xl font-semibold py-2 sm:py-4 sm:leading-8">
             Two-way synchronization
@@ -32,7 +33,7 @@ const SyncGithub = () => {
         <div className="col-span-12 lg:col-span-4">
           <img
             className="size-8"
-            src="https://huly.io/_next/static/media/4d5dd04473e9f2ebc5c49291c1f73681.svg"
+            src={PRIVATE_TASK_ICON_URL}
           />
           <h4 className="sm:w-[40%]  text-xl sm:text-3xl font-semibold py-2 sm:py-4 sm:leading-8">
             Private tasks
@@ -45,7 +46,7 @@ const SyncGithub = () => {
         <div className="col-span-12 lg:col-span-4">
           <img
             className="size-8"
-            src="https://huly.io/_next/static/media/7338cddab3021d50f73a3d36c88df490.svg"
+            src={MULTIPLE_REPO_ICON_URL}
           />
           <h4 className="sm:w-[40%] text-xl sm:text-3xl font-semibold py-2 sm:py-4 sm:leading-8">
             Multiple repositories
@@ -58,7 +59,7 @@ const SyncGithub = () => {
         <div className="col-span-12 lg:col-span-4">
           <img
             className="size-8"
-            src="https://huly.io/_next/static/media/c1edb00984cbfb46dd8eda516738f4f0.svg"
+            src={MILESTONE_ICON_URL}
           />
           <h4 className="sm:w-[40%] text-xl sm:text-3xl font-semibold py-2 sm:py-4 sm:leading-8">
           Milestone migration
@@ -70,7 +71,7 @@ const SyncGithub = () => {
         <div className="col-span-12 lg:col-span-4">
           <img
             className="size-8"
-            src="https://huly.io/_next/static/media/352118264d839bffe60735ff4aeed26f.svg"
+            src={TRACK_PROGRESS_ICON_URL}
           />
           <h4 className="sm:w-[40%] text-xl sm:text-3xl font-semibold py-2 sm:py-4 sm:leading-8">
           Track  progress
@@ -82,7 +83,7 @@ const SyncGithub = () => {
         <div className="col-span-12 lg:col-span-4">
           <img
             className="size-8"
-            src="https://huly.io/_next/static/media/12b7898bd7ddbbbbcacf68c0f47c7c51.svg"
+            src={ADVANCE_FILTERING_ICON_URL}
           />
           <h4 className="sm:w-[40%] text-xl sm:text-3xl font-semibold py-2 sm:py-4 sm:leading-8">
           Advanced filtering

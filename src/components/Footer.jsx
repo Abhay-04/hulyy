@@ -1,9 +1,11 @@
+import { CLOCK_FOOTER_VIDEO_URL, HEART_ICON_URL, SLACK_ICON_URL } from "../utils";
+
 const Footer = () => {
   return (
     <div className="  flex flex-col  items-center sm:items-end text-white w-full h-full px-4 sm:px-10 2xl:px-80 2xl:pt-20 relative overflow-hidden pt-20 bg-black">
       <video
         className="absolute top-10 left-30 sm:top-48 sm:left-80 size-60 sm:size-96 object-bottom "
-        src="https://huly.io/videos/cta/clock.mp4?updated=20240531154316"
+        src={CLOCK_FOOTER_VIDEO_URL}
         autoPlay
         loop
         muted
@@ -25,7 +27,7 @@ const Footer = () => {
             <div className="flex items-center gap-x-2">
               <img
                 className="size-4"
-                src="https://huly.io/_next/static/media/68af230db56f9e75d64156987f7e1b09.svg"
+                src={SLACK_ICON_URL}
               />
               <span>JOIN OUR SLACK</span>
             </div>
@@ -65,7 +67,7 @@ const Footer = () => {
         <div className="col-span-12 sm:col-span-3 flex items-center justify-center">
           <img
             className="size-12"
-            src="https://huly.io/_next/static/media/451c327bbe05656f879fee8b8cac7a62.svg"
+            src={HEART_ICON_URL}
           ></img>
           <p className="text-transparent bg-gradient-to-r from-[#f58041] to-[#e4dacc] bg-clip-text">
             Made with passion and Huly
@@ -78,4 +80,3 @@ const Footer = () => {
 
 export default Footer;
 
-// bg-bottom bg-cover bg-no-repeat bg-[url('https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcta-illustration.8178f665.jpg&w=1920&q=100')]

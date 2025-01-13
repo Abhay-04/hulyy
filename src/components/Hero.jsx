@@ -1,9 +1,11 @@
+import {  HERO_IMAGE_URL, HERO_VIDEO_URL } from "../utils";
+
 const Hero = () => {
   return (
     <div className="w-full min-h-screen bg-black text-white grid grid-col-12 px-4 sm:px-10 2xl:px-80 2xl:pt-20 relative overflow-hidden">
       <video
         className="absolute w-full h-full object-center  2xl:object-top"
-        src="https://huly.io/videos/pages/home/hero/hero.webm?updated=20240607144404"
+        src={HERO_VIDEO_URL}
         autoPlay
         loop
         muted
@@ -22,7 +24,7 @@ const Hero = () => {
       </div>
       <div className="z-10 w-[80%] lg:w-[95%] 2xl:w-[82.8%] mt-20 lg:mt-64 2xl:mt-56">
         <img
-          src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-illustration.7100a376.jpg&w=1920&q=75"
+          src={HERO_IMAGE_URL}
           className="relative "
         />
       </div>

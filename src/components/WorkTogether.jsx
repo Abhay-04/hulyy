@@ -1,4 +1,5 @@
 import videoFrameImg from "../assets/videoframe.jpg";
+import { AUDIO_ICON_URL, CUSTOMIZEWORKSPACE_ICON_URL, GUEST_ICON_URL } from "../utils";
 
 const WorkTogether = () => {
   return (
@@ -25,7 +26,7 @@ const WorkTogether = () => {
             <div className="col-span-12 sm:col-span-4">
               <img
                 className="size-10"
-                src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcustomize.03200dd0.png&w=48&q=100"
+                src={CUSTOMIZEWORKSPACE_ICON_URL}
               />
               <h3 className="sm:w-[40%] w-full text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
                 Customize workspace
@@ -38,7 +39,7 @@ const WorkTogether = () => {
             <div className="col-span-12 sm:col-span-4">
               <img
                 className="size-10"
-                src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvideo.e4ea1f4b.png&w=48&q=100"
+                src={AUDIO_ICON_URL}
               />
               <h3 className="sm:w-[60%] w-full text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
                 Audio and video calls
@@ -51,7 +52,7 @@ const WorkTogether = () => {
             <div className="col-span-12 sm:col-span-4">
               <img
                 className="size-10"
-                src="https://huly.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finvite.043fb941.png&w=48&q=100"
+                src={GUEST_ICON_URL}
               />
               <h3 className=" w-full sm:w-[40%] text-xl sm:text-2xl py-1 sm:py-3 font-semibold leading-6">
                 Invite guests

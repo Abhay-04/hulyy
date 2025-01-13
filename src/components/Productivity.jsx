@@ -1,4 +1,5 @@
 import notificationImg from "../assets/notification.png"
+import { PRODUCTIVITY_VIDEO_URL } from "../utils";
 
 const Productivity = () => {
   return (
@@ -43,7 +44,7 @@ const Productivity = () => {
             autoPlay
             loop
             muted
-            src="https://huly.io/videos/pages/home/stay-productive/waves.mp4?updated=20240527164544"
+            src={PRODUCTIVITY_VIDEO_URL}
           />
 
           <img
